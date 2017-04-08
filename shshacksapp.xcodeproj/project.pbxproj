@@ -11,7 +11,7 @@
 		693B029039FF19DE6F6E48DE /* Pods_shshacksapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C755B87A0F4A815E60BE9 /* Pods_shshacksapp.framework */; };
 		95ACF5D9B06E832A4ECC047C /* Pods_shshacksappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0CD28D8B9FFA09C242812 /* Pods_shshacksappTests.framework */; };
 		C1A75DD71E9921130030475D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A75DD61E9921130030475D /* AppDelegate.swift */; };
-		C1A75DD91E9921130030475D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A75DD81E9921130030475D /* ViewController.swift */; };
+		C1A75DD91E9921130030475D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A75DD81E9921130030475D /* MapViewController.swift */; };
 		C1A75DDC1E9921130030475D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A75DDA1E9921130030475D /* Main.storyboard */; };
 		C1A75DDE1E9921130030475D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A75DDD1E9921130030475D /* Assets.xcassets */; };
 		C1A75DE11E9921130030475D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A75DDF1E9921130030475D /* LaunchScreen.storyboard */; };
@@ -46,7 +46,7 @@
 		BCB0CD28D8B9FFA09C242812 /* Pods_shshacksappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shshacksappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A75DD31E9921130030475D /* shshacksapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shshacksapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A75DD61E9921130030475D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1A75DD81E9921130030475D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1A75DD81E9921130030475D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C1A75DDB1E9921130030475D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1A75DDD1E9921130030475D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A75DE01E9921130030475D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			children = (
 				C1A75E041E9925CB0030475D /* GoogleService-Info.plist */,
 				C1A75DD61E9921130030475D /* AppDelegate.swift */,
-				C1A75DD81E9921130030475D /* ViewController.swift */,
+				C1A75DD81E9921130030475D /* MapViewController.swift */,
 				C1A75DDA1E9921130030475D /* Main.storyboard */,
 				C1A75DDD1E9921130030475D /* Assets.xcassets */,
 				C1A75DDF1E9921130030475D /* LaunchScreen.storyboard */,
@@ -453,7 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A75DD91E9921130030475D /* ViewController.swift in Sources */,
+				C1A75DD91E9921130030475D /* MapViewController.swift in Sources */,
 				C1A75DD71E9921130030475D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,6 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7LQ6G3275A;
 				INFOPLIST_FILE = shshacksapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.shshacksapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -625,6 +626,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7LQ6G3275A;
 				INFOPLIST_FILE = shshacksapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.shshacksapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
